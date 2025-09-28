@@ -5,7 +5,7 @@ age=int(input())
 print('Enter Your Password')
 password=input()
 
-if password=='Prajjwal' and age==20:
+if password=='Prajjwal'or 'prajjwal' and age==20:
     print('Password is correct')
 
 else:
