@@ -1,6 +1,6 @@
 #Birthdays of my Colleagues
 
-Birthdays={'Krish':'28th Feb','Alfishan':'11th April','shyamant':'14th January','Ansh':'25th Jan','sheen':'11th Oct','keshav':'2nd Jan','Alquama':'20th April'}
+Birthdays={'Krish':'27th Feb','Alfishan':'11th April','shyamant':'14th January','Ansh':'25th Jan','sheen':'11th Oct','keshav':'2nd Jan','Alquama':'20th April','Anushka':'28th Oct'}
 
 while True:
     print('Enter the name:(blank to quit)')
