@@ -1,0 +1,6 @@
+import re
+name=re.compile(r"Batman|Tina fey")
+sentence=name.search('Batman is the Tina fey')
+print(sentence.group())
+sentence2=name.search('Tina fey is the Batman')
+print(sentence2.group())
