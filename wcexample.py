@@ -1,0 +1,12 @@
+import Wizcoin
+purse=Wizcoin.wWizCoin(2,5,99)
+print(purse)
+print('G:',purse.galleons,'S:',purse.sickles,'K:',purse.knuts)
+print('Total value:',purse.value())
+print('Weight:',purse.weightInGrams(),'grams')
+print()
+Coinjar=Wizcoin.wWizCoin(13,0,0)
+print(Coinjar)
+print('G:',Coinjar.galleons,'S:',Coinjar.sickles,'K:',Coinjar.knuts)
+print('Total value:',Coinjar.value())
+print('Weight:',Coinjar.weightInGrams(),'grams')
