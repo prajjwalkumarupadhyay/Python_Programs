@@ -15,7 +15,7 @@ class BankAccount:
         if self._balance<amount or amount<0:
             return 
         self._balance-=amount
-        with open(self._name_+'Ledger.txt','a') as LedgerFile:
+        with open(self._name+'Ledger.txt','a') as LedgerFile:
             LedgerFile.write('Withdraw'+str(amount)+'\n')
             LedgerFile.write('Balance is '+str(self._balance)+'\n')
 acct=BankAccount('Alice')
