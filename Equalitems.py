@@ -48,18 +48,21 @@ def sorting():
             return False
     return True
 def Input():
-    print('''By which method you want to perform searching\n 
+    while True:
+        print('''By which method you want to perform searching\n 
           1. Three-way set Disjointness.
           2. Element Uniqueness.
           3. Using Sorting\n
         Enter the respective S.NO. or Type Exit to Terminate.''')
-    data=input()
-    if data=="1":
-        Disjointness()
-    elif data=='2':
-        uniquel()
-    elif data=='3':
-        sorting()
-    elif data.upper()=='EXIT':
-        sys.exit('Program Terminated.')
+        data=input()
+        if data=="1":
+           print(Disjointness())
+        elif data=='2':
+            print(uniquel())
+        elif data=='3':
+            print(sorting())
+        elif data.upper()=='EXIT':
+            sys.exit('Program Terminated.')
+        else:
+            print('Please input correct data.')
 Input()
